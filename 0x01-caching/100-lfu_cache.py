@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-""" 100 LFU Caching """
+""" 5. LFU Caching
+"""
 
 from enum import Enum
 from heapq import heappush, heappop
