@@ -8,8 +8,8 @@ BaseCaching = __import__("base_caching").BaseCaching
 
 
 class MRUCache(BaseCaching):
-    """ Create a class MRUCache that inherits from BaseCaching and is a caching
-    system
+    """ Create a class MRUCache that inherits from 
+        BaseCaching and is a caching system
     """
 
     def __init__(self):
@@ -19,8 +19,8 @@ class MRUCache(BaseCaching):
         self.queue = deque()
 
     def put(self, key, item):
-        """ Must assign to the dictionary self.cache_data the item value for
-        the key key
+        """ Must assign to the dictionary self.cache_data
+            the item value for the key key
         """
         if key and item:
             if key in self.cache_data:
@@ -45,8 +45,8 @@ class MRUCache(BaseCaching):
         return len(self.cache_data) >= self.MAX_ITEMS
 
     def evict(self):
-        """ you must print DISCARD: with the key discarded and following by a
-        new line
+        """ you must print DISCARD: with the key discarded
+            and following by a new line
         """
         popped = self.queue.pop()
         del self.cache_data[popped]
