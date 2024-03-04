@@ -21,7 +21,7 @@ const setNewSchool = (schoolName, value) => {
 };
 
 const displaySchoolValue = (schoolName) => {
-  Newclient.get(schoolName, (err, reply) => {
+  Newclient.get(schoolName, (_, reply) => {
     console.log(`${reply}`);
   });
 };
