@@ -1,7 +1,5 @@
 /**
- * Author: Kwenziwa Lizwi Khanyile
- * Github: @kwenziwa
- * Date Created: February 1, 2024
+ * 0. use Promisify to convert redis client to async/await
  */
 import redis from 'redis';
 import { promisify } from 'util';
