@@ -1,7 +1,5 @@
 /**
- * Author: Kwenziwa Lizwi Khanyile
- * Github: @kwenziwa
- * Date Created: February 1, 2024
+ * Redis advanced operations
  */
 import redis from 'redis';
 
@@ -21,7 +19,7 @@ const fields = {
   'New York': 20,
   Bogota: 20,
   Cali: 40,
-  Paris: 2
+  Paris: 2,
 };
 
 for (const [k, v] of Object.entries(fields)) {
