@@ -1,7 +1,5 @@
 /**
- * Author: Kwenziwa Lizwi Khanyile
- * Github: @kwenziwa
- * Date Created: February 1, 2024
+ * 0. Install a redis client and connect to a redis server
  */
 import redis from 'redis';
 
