@@ -5,48 +5,48 @@ import kue from 'kue';
 
 const jobs = [
   {
-    phoneNumber: '250250',
-    message: 'Your verification code is: 1234',
+    phoneNumber: '4153518780',
+    message: 'This is the code 1234 to verify your account',
   },
   {
-    phoneNumber: '250251',
-    message: 'Your verification code is: 1235',
+    phoneNumber: '4153518781',
+    message: 'This is the code 4562 to verify your account',
   },
   {
-    phoneNumber: '250252',
-    message: 'Your verification code is: 1236',
+    phoneNumber: '4153518743',
+    message: 'This is the code 4321 to verify your account',
   },
   {
-    phoneNumber: '250253',
-    message: 'Your verification code is: 1237',
+    phoneNumber: '4153538781',
+    message: 'This is the code 4562 to verify your account',
   },
   {
-    phoneNumber: '250254',
-    message: 'Your verification code is: 1238',
+    phoneNumber: '4153118782',
+    message: 'This is the code 4321 to verify your account',
   },
   {
-    phoneNumber: '250255',
-    message: 'Your verification code is: 1239',
+    phoneNumber: '4153718781',
+    message: 'This is the code 4562 to verify your account',
   },
   {
-    phoneNumber: '250256',
-    message: 'Your verification code is: 1231',
+    phoneNumber: '4159518782',
+    message: 'This is the code 4321 to verify your account',
   },
   {
-    phoneNumber: '250257',
-    message: 'Your verification code is: 1232',
+    phoneNumber: '4158718781',
+    message: 'This is the code 4562 to verify your account',
   },
   {
-    phoneNumber: '250258',
-    message: 'Your verification code is: 1233',
+    phoneNumber: '4153818782',
+    message: 'This is the code 4321 to verify your account',
   },
   {
-    phoneNumber: '250259',
-    message: 'Your verification code is: 1240',
+    phoneNumber: '4154318781',
+    message: 'This is the code 4562 to verify your account',
   },
   {
-    phoneNumber: '250260',
-    message: 'Your verification code is: 1241',
+    phoneNumber: '4151218782',
+    message: 'This is the code 4321 to verify your account',
   },
 ];
 
